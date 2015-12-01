@@ -1,0 +1,16 @@
+<!doctype html>
+<html ng-app>
+    <head><title>Using Directives</title></head>
+    <body ng-init="name='bala'">
+        {{ 1 + 1}}
+        <div ng-hide="isHidden">
+            Name: <input type="text" ng-model="name" /> {{ name }}
+            <span ng-bind="name"></span> <!-- Another option to bind the data -->
+        </div>
+        Hide: <input type="checkbox" ng-model="isHidden"/>
+        <br />
+        <button ng-click="name='nata'">Change Name</button>
+        
+        <script src="angular.js"></script>
+    </body>
+</html>
