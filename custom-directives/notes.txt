@@ -1,0 +1,6 @@
+3rd part directives
+
+1. UI Bootstrap
+2. AngularStrap
+3. Angular UI Grid
+4. Angular translate
